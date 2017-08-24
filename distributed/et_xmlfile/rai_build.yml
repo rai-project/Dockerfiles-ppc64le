@@ -1,0 +1,17 @@
+rai:
+  version: 0.2
+resources:
+  cpu:
+    architecture: ppc64le
+  network: false
+commands:
+  build_image:
+    image_name: c3sr/et_xmlfile:latest
+    dockerfile: "./Dockerfile"
+    # no_cache: true
+    push:
+      push: true
+      image_name: c3sr/et_xmlfile:latest
+      credentials:
+        user_name: aschuh703
+        password: StarGat3
