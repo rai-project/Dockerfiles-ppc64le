@@ -6,7 +6,7 @@ resources:
   network: false
 commands:
   build_image:
-    image_name: c3sr/rust_ppc64le:latest
+    image_name: c3sr/rust_ppc64le:1.18.0
     dockerfile: "./Dockerfile"
     # no_cache: true
     push:

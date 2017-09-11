@@ -6,7 +6,7 @@ resources:
   network: false
 commands:
   build_image:
-    image_name: c3sr/strong-wait-till-listening_ppc64le:latest
+    image_name: c3sr/strong-wait-till-listening_ppc64le:1.0.3
     dockerfile: "./Dockerfile"
     # no_cache: true
     push:
