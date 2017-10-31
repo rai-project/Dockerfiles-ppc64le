@@ -6,7 +6,7 @@ resources:
   network: false
 commands:
   build_image:
-    image_name: c3sr/docker.ppc64le:7.4.2
+    image_name: c3sr/docker.ppc64le:1.13.1
     dockerfile: "./Dockerfile"
     # no_cache: true
     push:
